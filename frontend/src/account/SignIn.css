@@ -1,0 +1,17 @@
+.signin-modal .form-control {
+  font-size: 1.2em;
+  padding: 15px;
+}
+
+.signin-modal .btn {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+.signin-modal .card-title {
+  font-size: 2em;
+}
+
+.signin-modal .alert {
+  font-size: 1.2em;
+}
