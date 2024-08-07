@@ -36,7 +36,6 @@ h3 {
   cursor: pointer; /* Indicate clickable items */
 }
 
-
 .arrow.up::after {
   content: '🔼'; /* Arrow up icon */
 }

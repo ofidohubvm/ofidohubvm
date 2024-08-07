@@ -1,5 +1,6 @@
 /* Ensure the html and body elements cover 100% height and width */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@ html, body {
   flex: 1;
   margin-left: 0px;
   display: grid;
-  grid-template-columns: 0.5fr 3.5fr ;
+  grid-template-columns: 0.5fr 3.5fr;
   height: 100%;
 }
 
@@ -44,4 +45,3 @@ html, body {
 .part3 {
   background-color: #000;
 }
-

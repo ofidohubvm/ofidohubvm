@@ -1,37 +1,37 @@
 .bio-container {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .bio-title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #343a40; /* Dark color for the title */
-  }
-  
-  .core-values-title,
-  .blueprint-title,
-  .conclusion-title {
-    font-size: 1.75rem;
-    margin-top: 30px;
-    color: #007bff; /* Blue color for subtitles */
-  }
-  
-  .core-values-list,
-  .blueprint-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .core-values-list li,
-  .blueprint-list li {
-    margin: 10px 0;
-    padding: 10px;
-    background: #e9ecef; /* Light grey background for list items */
-    border-radius: 5px;
-  }
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.bio-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #343a40; /* Dark color for the title */
+}
+
+.core-values-title,
+.blueprint-title,
+.conclusion-title {
+  font-size: 1.75rem;
+  margin-top: 30px;
+  color: #007bff; /* Blue color for subtitles */
+}
+
+.core-values-list,
+.blueprint-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.core-values-list li,
+.blueprint-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #e9ecef; /* Light grey background for list items */
+  border-radius: 5px;
+}
