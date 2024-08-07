@@ -1,34 +1,67 @@
-
+/* MainContent.css */
+.container {
   
-  h1 {
-    color: #007bff; /* Bootstrap primary color */
-    font-size: 2.5rem; /* Larger font size for the main heading */
-    margin-bottom: 20px; /* Spacing below the heading */
-  }
-  
-  h2 {
-    color: #343a40; /* Darker color for section headings */
-    font-size: 2rem; /* Font size for subheadings */
-    border-bottom: 2px solid #007bff; /* Blue underline for subheadings */
-    padding-bottom: 10px; /* Space between heading and content */
-    margin-bottom: 20px; /* Spacing below the heading */
-  }
-  
-  p {
-    color: #495057; /* Dark gray text color */
-    line-height: 1.6; /* Increased line height for readability */
-    margin-bottom: 15px; /* Spacing below paragraphs */
-  }
-  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
  
-  .list-group-item:hover {
-    background-color: #e9ecef; /* Light gray background on hover */
-  }
-  
-  .text-center {
-    margin-top: 40px; /* Extra spacing before the call to action section */
-  }
-  
-  strong {
-    color: #007bff; /* Color for emphasized text */
-  }
+  margin-bottom: 10px;
+}
+
+
+.header-text-center {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #d1e8ff;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  color: #343a40;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #6a11cb;
+  padding-bottom: 10px;
+}
+
+.list-group-item {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.list-group-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.join-us-section {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.join-us-section h2 {
+  color: #ffffff;
+}
+
+.join-us-section p {
+  color: #ced4da;
+}

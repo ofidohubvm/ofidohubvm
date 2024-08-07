@@ -106,16 +106,7 @@ const NavBar = () => {
                 Community
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white" to="/research">
-                Research
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-white" to="/register">
-                Blog
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link className="nav-link text-white" to="/about">
                 About Us

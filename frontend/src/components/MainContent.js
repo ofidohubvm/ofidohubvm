@@ -3,103 +3,88 @@ import './MainContent.css';
 
 const MainContent = () => {
   return (
-    <div className="container my-5">
-      <header className="text-center mb-4">
-        <h1 className="display-4">
-          AtonixCorp is Empowering Innovation Through Data Analytics 🌐
-        </h1>
+    <main className="container mt-5">
+      <header className="header text-center mb-4">
+        <h1 className="display-4">Welcome to Ofidohub Community Forum</h1>
+        <p className="lead">Bridging Expertise, Fostering Innovation</p>
       </header>
 
       <section className="mb-5">
-        <h2 className="h4">Company Biography</h2>
-        <p className="lead">
-          Founded on the principles of innovation and excellence, AtonixCorp is
-          a leading technology company specializing in advanced data analytics
-          solutions tailored to meet the diverse needs of modern industries.
-          With a dedicated team of passionate developers, security researchers,
-          and software engineers, we are committed to building cutting-edge
-          services that drive efficiency, sustainability, and growth across
-          various sectors.
+        <h2 className="section-title">Why Join Ofidohub?</h2>
+        <p>
+          In today&apos;s rapidly evolving world, tackling complex challenges
+          requires diverse perspectives and collaborative efforts. At Ofidohub,
+          we are committed to nurturing a vibrant community where ideas converge
+          and creativity flourishes. Our platform serves as a nexus for members
+          to share insights, seek assistance, and collaborate on groundbreaking
+          projects.
         </p>
       </section>
 
       <section className="mb-5">
-        <h2 className="h4">Our Vision</h2>
-        <p className="lead">
-          At AtonixCorp, we envision a world where data empowers organizations
-          to make informed decisions, optimize operations, and enhance user
-          experiences. We believe that through the intelligent application of
-          data analytics, we can unlock new opportunities and create lasting
-          impact in industries ranging from agriculture to energy.
-        </p>
-      </section>
-
-      <section className="mb-5">
-        <h2 className="h4">Our Expertise</h2>
+        <h2 className="section-title">Our Core Values</h2>
         <ul className="list-group">
           <li className="list-group-item">
-            <strong>IoT Solutions:</strong> We leverage the transformative power
-            of the Internet of Things (IoT) to develop smart, interconnected
-            ecosystems. Our solutions span various domains, including precision
-            agriculture and industrial automation, facilitating seamless data
-            exchange and actionable insights that drive operational excellence.
+            <strong>Open Source Collaboration:</strong> We champion the idea
+            that innovation thrives in an open environment.
           </li>
           <li className="list-group-item">
-            <strong>Agriculture Technology:</strong> Committed to fostering
-            sustainable agriculture, we design innovative solutions that
-            optimize irrigation, fertigation, and solar power systems. Our
-            technologies empower small farmers by enhancing crop yields and
-            resource efficiency, ensuring food security for future generations.
+            <strong>Interdisciplinary Engagement:</strong> Our platform connects
+            professionals and enthusiasts from various fields.
           </li>
           <li className="list-group-item">
-            <strong>Oil Technology Research:</strong> AtonixCorp is deeply
-            engaged in the oil and energy sector, where our data-driven
-            methodologies help companies streamline operations, enhance safety
-            protocols, and maximize production efficiency. Our insights pave the
-            way for a more sustainable and productive energy landscape.
+            <strong>Developer-Centric Approach:</strong> We prioritize the needs
+            of developers.
           </li>
           <li className="list-group-item">
-            <strong>AI and Machine Learning:</strong> By harnessing the
-            capabilities of artificial intelligence and machine learning, we
-            extract valuable patterns and predictions from complex datasets. Our
-            solutions range from predictive maintenance in industrial settings
-            to personalized recommendations in consumer applications,
-            positioning us at the forefront of AI innovation.
-          </li>
-          <li className="list-group-item">
-            <strong>Media and Entertainment Technology:</strong> We believe in
-            the intersection of creativity and technology. Our expertise in
-            enhancing media experiences encompasses everything from immersive
-            content delivery to tailored recommendations, ensuring seamless
-            entertainment for users around the globe.
+            <strong>Continuous Learning:</strong> Lifelong learning is at the
+            heart of our community.
           </li>
         </ul>
       </section>
 
       <section className="mb-5">
-        <h2 className="h4">Our Impact</h2>
-        <p className="lead">
-          At AtonixCorp, we are driven by the desire to create meaningful
-          change. Our flagship cloud-based AI platform, Prometheus APM,
-          addresses critical business challenges, enabling organizations to
-          transform their operations and achieve unprecedented levels of
-          efficiency and effectiveness.
-        </p>
+        <h2 className="section-title">Your Blueprint for Success</h2>
+        <ul className="list-group">
+          <li className="list-group-item">
+            <strong>User-Friendly Interface:</strong> Navigate our platform
+            effortlessly.
+          </li>
+          <li className="list-group-item">
+            <strong>Robust Resource Library:</strong> Explore a curated
+            collection of open-source projects.
+          </li>
+          <li className="list-group-item">
+            <strong>Networking Opportunities:</strong> Join us for regular
+            events, hackathons, and meetups.
+          </li>
+          <li className="list-group-item">
+            <strong>Project Showcases:</strong> Present your innovations and
+            gain valuable feedback.
+          </li>
+          <li className="list-group-item">
+            <strong>Mentorship Programs:</strong> Connect with experienced
+            professionals who can guide you.
+          </li>
+        </ul>
       </section>
 
-      <section className="text-center">
-        <h2 className="h4">Join Us on Our Journey</h2>
-        <p className="lead">
-          As we continue to push the boundaries of what is possible through data
-          analytics, we invite technology companies and innovative organizations
-          to join us on our journey. Together, we can harness the power of data
-          to drive sustainable growth and create a brighter future.
+      <section className="join-us-section text-center">
+        <h2 className="section-title">Join Us Today!</h2>
+        <p>
+          At Ofidohub Community Forum, we are excited about the future of
+          collaboration and discovery. Our platform is more than just a forum;
+          it&apos;s a thriving ecosystem where innovation, learning, and growth
+          can flourish. We invite you to become a part of our community that
+          celebrates knowledge, fosters creativity, and drives meaningful change
+          across disciplines.
         </p>
-        <p className="font-weight-bold">
-          <strong>AtonixCorp: Where Innovation Meets Impact. 🚀</strong>
-        </p>
+        <strong>
+          Together, let&apos;s create a brighter future for developers,
+          researchers, and learners around the world.
+        </strong>
       </section>
-    </div>
+    </main>
   );
 };
 

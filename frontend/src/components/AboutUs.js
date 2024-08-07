@@ -1,75 +1,96 @@
 import React from 'react';
-import './AboutUs.css'; // Import the same CSS file
+import './AboutUs.css'; // Custom CSS file
+import { Container, Row, Col } from 'react-bootstrap';
 
-const AboutUs = () => {
+const AboutUS = () => {
   return (
-    <div className="container-aboutus my-4">
-      <header className="text-center mb-3">
-        <h1>AtonixCorp: Empowering Innovation Through Data Analytics 🌐</h1>
-      </header>
+    <Container className="bio-container">
+      <Row>
+        <Col>
+          <h1 className="bio-title">
+            Company Biography: Ofidohub Community Forum
+          </h1>
+          <p>
+            Founded with a vision to bridge the gap between diverse fields of
+            expertise, Ofidohub Community Forum is an innovative open-source
+            platform dedicated to fostering collaboration among developers,
+            researchers, engineers, physicists, mathematicians, chemists, and
+            learners. Our mission is to create a dynamic and inclusive
+            environment where knowledge-sharing, interdisciplinary interaction,
+            and hands-on collaboration can thrive.
+          </p>
+          <p>
+            At Ofidohub, we understand that the complexities of modern
+            challenges require a multifaceted approach. That’s why we are
+            committed to establishing a vibrant community that encourages the
+            convergence of ideas from various scientific and technical
+            disciplines. Our platform serves as a nexus where members can share
+            insights, seek assistance, and collaborate on projects that push the
+            boundaries of innovation.
+          </p>
 
-      <section className="mb-4">
-        <h2>Company Biography</h2>
-        <p>
-          Founded on the principles of innovation and excellence, AtonixCorp is
-          a leading technology company specializing in advanced data analytics
-          solutions tailored to meet the diverse needs of modern industries.
-          With a dedicated team of passionate developers, security researchers,
-          and software engineers, we are committed to building cutting-edge
-          services that drive efficiency, sustainability, and growth across
-          various sectors.
-        </p>
-      </section>
+          <h2 className="core-values-title">Core Values:</h2>
+          <ul className="core-values-list">
+            <li>
+              <strong>Open Source Collaboration:</strong> We believe in the
+              power of open-source software and hardware as catalysts for
+              innovation...
+            </li>
+            <li>
+              <strong>Interdisciplinary Engagement:</strong> Our platform is
+              designed to connect professionals and enthusiasts from different
+              domains...
+            </li>
+            <li>
+              <strong>Developer-Centric Approach:</strong> At the heart of our
+              mission is the desire to help developers connect with clients and
+              stakeholders...
+            </li>
+            <li>
+              <strong>Continuous Learning:</strong> We strive to create an
+              environment that promotes lifelong learning...
+            </li>
+          </ul>
 
-      <section className="mb-4">
-        <h2>Our Vision</h2>
-        <p>
-          At AtonixCorp, we envision a world where data empowers organizations
-          to make informed decisions, optimize operations, and enhance user
-          experiences. We believe that through the intelligent application of
-          data analytics, we can unlock new opportunities and create lasting
-          impact in industries ranging from agriculture to energy.
-        </p>
-      </section>
+          <h2 className="blueprint-title">The Blueprint for Success:</h2>
+          <ul className="blueprint-list">
+            <li>
+              <strong>User-Friendly Interface:</strong> Our platform will be
+              designed with an intuitive interface...
+            </li>
+            <li>
+              <strong>Robust Resource Library:</strong> We will curate a library
+              of resources...
+            </li>
+            <li>
+              <strong>Networking Opportunities:</strong> Our community will host
+              regular events, hackathons, and meetups...
+            </li>
+            <li>
+              <strong>Project Showcases:</strong> Members will have the
+              opportunity to present their projects...
+            </li>
+            <li>
+              <strong>Mentorship Programs:</strong> We are committed to
+              nurturing the next generation of talent...
+            </li>
+          </ul>
 
-      <section className="mb-4">
-        <h2>Our Expertise</h2>
-        <ul className="list-group">
-          <li className="list-group-item">
-            <strong>IoT Solutions:</strong> We leverage the transformative power
-            of the Internet of Things (IoT) to develop smart, interconnected
-            ecosystems. Our solutions span various domains, including precision
-            agriculture and industrial automation, facilitating seamless data
-            exchange and actionable insights that drive operational excellence.
-          </li>
-          <li className="list-group-item">
-            <strong>Agriculture Technology:</strong> Committed to fostering
-            sustainable agriculture, we design innovative solutions that
-            optimize irrigation, fertigation, and solar power systems. Our
-            technologies empower small farmers by enhancing crop yields and
-            resource efficiency, ensuring food security for future generations.
-          </li>
-          <li className="list-group-item">
-            <strong>Oil Technology Research:</strong> AtonixCorp is deeply
-            engaged in research and development efforts aimed at improving the
-            efficiency and sustainability of oil extraction and processing. Our
-            cutting-edge technologies assist in minimizing environmental impacts
-            while maximizing resource recovery.
-          </li>
-        </ul>
-      </section>
-
-      <section className="text-center">
-        <h2>Join Us on Our Journey!</h2>
-        <p>
-          At AtonixCorp, we are always looking for talented individuals who
-          share our passion for innovation and sustainability. If you are
-          interested in making a difference through data analytics and
-          technology, we invite you to explore career opportunities with us.
-        </p>
-      </section>
-    </div>
+          <h2 className="conclusion-title">Conclusion:</h2>
+          <p>
+            At Ofidohub Community Forum, we are excited to embark on this
+            journey of collaboration and discovery. Our platform is more than
+            just a forum; it is a thriving ecosystem where innovation, learning,
+            and professional growth can flourish. We invite you to join us in
+            building a community that celebrates knowledge, fosters creativity,
+            and drives meaningful change across disciplines. Together, we can
+            create a brighter future for developers, researchers, and learners
+            around the world.
+          </p>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
-export default AboutUs;
+export default AboutUS;
