@@ -79,6 +79,7 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/cli": "^7.24.8",
     "@babel/core": "^7.25.2",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -117,5 +118,11 @@
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
+=======
+    "cssnano": "^7.0.4",
+    "html-minifier": "^4.0.0",
+    "netlify-cli": "^17.33.6",
+    "terser": "^5.31.4"
+>>>>>>> 5b2983e6e (wevcongif)
   }
 }

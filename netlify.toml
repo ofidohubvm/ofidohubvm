@@ -1,13 +1,20 @@
 [build]
-  base = "/"
+  functions = "functions"
   command = "npm run build"
   publish = "build"
-  environment = {NODE_VERSION = "20"}
 
-[build.cache]
-  paths = ["node_modules", "public", ".cache"]
+[context.production]
+  command = "npm run build"
+  publish = "build"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[context.deploy-preview]
+  command = "npm run build"
+  publish = "build"
+
+[context.branch-deploy]
+  command = "npm run build"
+  publish = "build"
+
+[context.dev]
+  command = "npm run build"
+  publish = "build"
