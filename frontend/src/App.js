@@ -1,6 +1,5 @@
 import React, { Suspense, useState, useEffect } from 'react';
 import './scss/styles.scss';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './analytics';
 import './App.css';

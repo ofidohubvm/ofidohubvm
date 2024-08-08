@@ -4,8 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import './NavBar.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import SignUp from '../account/SignUp';
@@ -62,9 +60,12 @@ const NavBar = () => {
                   'Science',
                 ].map((item) => (
                   <li key={item}>
-                    <a className="dropdown-item small" href="#">
+                    <button
+                      className="dropdown-item small"
+                      onClick={() => alert(`${item} clicked`)}
+                    >
                       {item}
-                    </a>
+                    </button>
                   </li>
                 ))}
               </ul>
@@ -94,9 +95,12 @@ const NavBar = () => {
                   'Media and Entertainment Technology',
                 ].map((item) => (
                   <li key={item}>
-                    <a className="dropdown-item small" href="#">
+                    <button
+                      className="dropdown-item small"
+                      onClick={() => alert(`${item} clicked`)}
+                    >
                       {item}
-                    </a>
+                    </button>
                   </li>
                 ))}
               </ul>
