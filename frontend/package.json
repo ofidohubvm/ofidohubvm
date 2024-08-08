@@ -48,8 +48,8 @@
     "yup": "^1.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "build:prod": "webpack --mode production",
     "build:dev": "webpack --mode development",
     "start:dev": "webpack serve",
