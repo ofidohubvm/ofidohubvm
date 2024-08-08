@@ -1,2 +1,4 @@
 # Local Netlify folder
 .netlify
+static/media/bootstrap-icons.woff?
+static/media/bootstrap-icons.woff2?
