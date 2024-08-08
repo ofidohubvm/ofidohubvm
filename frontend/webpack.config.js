@@ -37,14 +37,7 @@ module.exports = {
               },
             },
           },
-          {
-            loader: 'sass-loader',
-            options: {
-              sassOptions: {
-                quietDeps: true, // Suppress deprecation warnings from dependencies
-              },
-            },
-          },
+          'sass-loader',
         ],
       },
       {
