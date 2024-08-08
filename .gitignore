@@ -2,3 +2,4 @@
 .netlify
 static/media/bootstrap-icons.woff?
 static/media/bootstrap-icons.woff2?
+frontend/node_modules/.cache/default-development/0.pack
