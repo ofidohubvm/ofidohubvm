@@ -1,0 +1,28 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _react = _interopRequireDefault(require("react"));
+require("bootstrap/dist/css/bootstrap.min.css");
+require("bootstrap/dist/js/bootstrap.bundle.min");
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
+const MainContent = () => {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "container my-5"
+  }, /*#__PURE__*/_react.default.createElement("header", {
+    className: "text-center mb-4"
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "AtonixCorp: Empowering Innovation Through Data Analytics \uD83C\uDF10")), /*#__PURE__*/_react.default.createElement("section", {
+    className: "mb-5"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Company Biography"), /*#__PURE__*/_react.default.createElement("p", null, "Founded on the principles of innovation and excellence, AtonixCorp is a leading technology company specializing in advanced data analytics solutions tailored to meet the diverse needs of modern industries. With a dedicated team of passionate developers, security researchers, and software engineers, we are committed to building cutting-edge services that drive efficiency, sustainability, and growth across various sectors.")), /*#__PURE__*/_react.default.createElement("section", {
+    className: "mb-5"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Our Vision"), /*#__PURE__*/_react.default.createElement("p", null, "At AtonixCorp, we envision a world where data empowers organizations to make informed decisions, optimize operations, and enhance user experiences. We believe that through the intelligent application of data analytics, we can unlock new opportunities and create lasting impact in industries ranging from agriculture to energy.")), /*#__PURE__*/_react.default.createElement("section", {
+    className: "mb-5"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Our Expertise"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("strong", null, "IoT Solutions:"), " We leverage the transformative power of the Internet of Things (IoT) to develop smart, interconnected ecosystems. Our solutions span various domains, including precision agriculture and industrial automation, facilitating seamless data exchange and actionable insights that drive operational excellence."), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("strong", null, "Agriculture Technology:"), " Committed to fostering sustainable agriculture, we design innovative solutions that optimize irrigation, fertigation, and solar power systems. Our technologies empower small farmers by enhancing crop yields and resource efficiency, ensuring food security for future generations."), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("strong", null, "Oil Technology Research:"), " AtonixCorp is deeply engaged in the oil and energy sector, where our data-driven methodologies help companies streamline operations, enhance safety protocols, and maximize production efficiency. Our insights pave the way for a more sustainable and productive energy landscape."), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("strong", null, "AI and Machine Learning:"), " By harnessing the capabilities of artificial intelligence and machine learning, we extract valuable patterns and predictions from complex datasets. Our solutions range from predictive maintenance in industrial settings to personalized recommendations in consumer applications, positioning us at the forefront of AI innovation."), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("strong", null, "Media and Entertainment Technology:"), " We believe in the intersection of creativity and technology. Our expertise in enhancing media experiences encompasses everything from immersive content delivery to tailored recommendations, ensuring seamless entertainment for users around the globe."))), /*#__PURE__*/_react.default.createElement("section", {
+    className: "mb-5"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Our Impact"), /*#__PURE__*/_react.default.createElement("p", null, "At AtonixCorp, we are driven by the desire to create meaningful change. Our flagship cloud-based AI platform, Prometheus APM, addresses critical business challenges, enabling organizations to transform their operations and achieve unprecedented levels of efficiency and effectiveness.")), /*#__PURE__*/_react.default.createElement("section", {
+    className: "text-center"
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Join Us on Our Journey"), /*#__PURE__*/_react.default.createElement("p", null, "As we continue to push the boundaries of what is possible through data analytics, we invite technology companies and innovative organizations to join us on our journey. Together, we can harness the power of data to drive sustainable growth and create a brighter future."), /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("strong", null, "AtonixCorp: Where Innovation Meets Impact. \uD83D\uDE80"))));
+};
+var _default = exports.default = MainContent;

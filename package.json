@@ -8,5 +8,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "cssnano": "^7.0.4",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.31.4"
+  }
 }
